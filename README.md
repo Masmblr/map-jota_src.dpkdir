@@ -281,12 +281,12 @@ textures\jota_custom_src\qer_related\qer_light_05_d.webp \
 textures\jota_custom_src\qer_related\rocks_01_d_dir.webp \
 textures\jota_custom_src\qer_related\sfx_skybox_dir.webp \
 textures\jota_custom_src\qer_related\water_01_d_dir.webp \
-env\jota\jota_bk.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
-env\jota\jota_dn.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
-env\jota\jota_ft.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
-env\jota\jota_lf.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
-env\jota\jota_rt.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
-env\jota\jota_up.webp * (Jockum Skoglund (hipshot), CC-BY 3.0)
+env\jota\jota_bk.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
+env\jota\jota_dn.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
+env\jota\jota_ft.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
+env\jota\jota_lf.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
+env\jota\jota_rt.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
+env\jota\jota_up.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
 textures\jota_custom_src\exm_door_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
 textures\jota_custom_src\exm_door_01_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
 textures\jota_custom_src\exm_door_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
