@@ -1,5 +1,5 @@
 # Jota - Game Level For Unvanquished
-![header](readme_meta/header/header.jpg) 
+![header](readme_meta/header/header.webp) 
 
 ## Overview: A haunting gas harvesting platform in the clouds
 Jota is a game level by Matthias "Masmblr" Peters for the open source game [_Unvanquished_](https://Unvanquished.net/).
@@ -55,33 +55,33 @@ Jota is a game level by Matthias "Masmblr" Peters for the open source game [_Unv
  * * *
 
 ## Screenshots:
-[<img src="readme_meta/preview_levelshots/1.jpg" width="250"/>](readme_meta/preview_levelshots/1.jpg)
-[<img src="readme_meta/preview_levelshots/2.jpg" width="250"/>](readme_meta/preview_levelshots/2.jpg)
-[<img src="readme_meta/preview_levelshots/3.jpg" width="250"/>](readme_meta/preview_levelshots/3.jpg)
-[<img src="readme_meta/preview_levelshots/4.jpg" width="250"/>](readme_meta/preview_levelshots/4.jpg)
-[<img src="readme_meta/preview_levelshots/5.jpg" width="250"/>](readme_meta/preview_levelshots/5.jpg)
-[<img src="readme_meta/preview_levelshots/6.jpg" width="250"/>](readme_meta/preview_levelshots/6.jpg)
-[<img src="readme_meta/preview_levelshots/7.jpg" width="250"/>](readme_meta/preview_levelshots/7.jpg)
-[<img src="readme_meta/preview_levelshots/8.jpg" width="250"/>](readme_meta/preview_levelshots/8.jpg)
-[<img src="readme_meta/preview_levelshots/9.jpg" width="250"/>](readme_meta/preview_levelshots/9.jpg)
-[<img src="readme_meta/preview_levelshots/10.jpg" width="250"/>](readme_meta/preview_levelshots/10.jpg)
-[<img src="readme_meta/preview_levelshots/11.jpg" width="250"/>](readme_meta/preview_levelshots/11.jpg)
-[<img src="readme_meta/preview_levelshots/12.jpg" width="250"/>](readme_meta/preview_levelshots/12.jpg)
-[<img src="readme_meta/preview_levelshots/13.jpg" width="250"/>](readme_meta/preview_levelshots/13.jpg)
-[<img src="readme_meta/preview_levelshots/14.jpg" width="250"/>](readme_meta/preview_levelshots/14.jpg)
-[<img src="readme_meta/preview_levelshots/15.jpg" width="250"/>](readme_meta/preview_levelshots/15.jpg)
-[<img src="readme_meta/preview_levelshots/16.jpg" width="250"/>](readme_meta/preview_levelshots/16.jpg)
-[<img src="readme_meta/preview_levelshots/17.jpg" width="250"/>](readme_meta/preview_levelshots/17.jpg)
-[<img src="readme_meta/preview_levelshots/18.jpg" width="250"/>](readme_meta/preview_levelshots/18.jpg)
-[<img src="readme_meta/preview_levelshots/19.jpg" width="250"/>](readme_meta/preview_levelshots/19.jpg)
-[<img src="readme_meta/preview_levelshots/20.jpg" width="250"/>](readme_meta/preview_levelshots/20.jpg)
-[<img src="readme_meta/preview_levelshots/21.jpg" width="250"/>](readme_meta/preview_levelshots/21.jpg)
-[<img src="readme_meta/preview_levelshots/22.jpg" width="250"/>](readme_meta/preview_levelshots/22.jpg)
-[<img src="readme_meta/preview_levelshots/23.jpg" width="250"/>](readme_meta/preview_levelshots/23.jpg)
-[<img src="readme_meta/preview_levelshots/24.jpg" width="250"/>](readme_meta/preview_levelshots/24.jpg)
-[<img src="readme_meta/preview_levelshots/25.jpg" width="250"/>](readme_meta/preview_levelshots/25.jpg)
-[<img src="readme_meta/preview_levelshots/26.jpg" width="250"/>](readme_meta/preview_levelshots/26.jpg)
-[<img src="readme_meta/preview_levelshots/27.jpg" width="250"/>](readme_meta/preview_levelshots/27.jpg)
+[<img src="readme_meta/preview_levelshots/1.webp" width="250"/>](readme_meta/preview_levelshots/1.webp)
+[<img src="readme_meta/preview_levelshots/2.webp" width="250"/>](readme_meta/preview_levelshots/2.webp)
+[<img src="readme_meta/preview_levelshots/3.webp" width="250"/>](readme_meta/preview_levelshots/3.webp)
+[<img src="readme_meta/preview_levelshots/4.webp" width="250"/>](readme_meta/preview_levelshots/4.webp)
+[<img src="readme_meta/preview_levelshots/5.webp" width="250"/>](readme_meta/preview_levelshots/5.webp)
+[<img src="readme_meta/preview_levelshots/6.webp" width="250"/>](readme_meta/preview_levelshots/6.webp)
+[<img src="readme_meta/preview_levelshots/7.webp" width="250"/>](readme_meta/preview_levelshots/7.webp)
+[<img src="readme_meta/preview_levelshots/8.webp" width="250"/>](readme_meta/preview_levelshots/8.webp)
+[<img src="readme_meta/preview_levelshots/9.webp" width="250"/>](readme_meta/preview_levelshots/9.webp)
+[<img src="readme_meta/preview_levelshots/10.webp" width="250"/>](readme_meta/preview_levelshots/10.webp)
+[<img src="readme_meta/preview_levelshots/11.webp" width="250"/>](readme_meta/preview_levelshots/11.webp)
+[<img src="readme_meta/preview_levelshots/12.webp" width="250"/>](readme_meta/preview_levelshots/12.webp)
+[<img src="readme_meta/preview_levelshots/13.webp" width="250"/>](readme_meta/preview_levelshots/13.webp)
+[<img src="readme_meta/preview_levelshots/14.webp" width="250"/>](readme_meta/preview_levelshots/14.webp)
+[<img src="readme_meta/preview_levelshots/15.webp" width="250"/>](readme_meta/preview_levelshots/15.webp)
+[<img src="readme_meta/preview_levelshots/16.webp" width="250"/>](readme_meta/preview_levelshots/16.webp)
+[<img src="readme_meta/preview_levelshots/17.webp" width="250"/>](readme_meta/preview_levelshots/17.webp)
+[<img src="readme_meta/preview_levelshots/18.webp" width="250"/>](readme_meta/preview_levelshots/18.webp)
+[<img src="readme_meta/preview_levelshots/19.webp" width="250"/>](readme_meta/preview_levelshots/19.webp)
+[<img src="readme_meta/preview_levelshots/20.webp" width="250"/>](readme_meta/preview_levelshots/20.webp)
+[<img src="readme_meta/preview_levelshots/21.webp" width="250"/>](readme_meta/preview_levelshots/21.webp)
+[<img src="readme_meta/preview_levelshots/22.webp" width="250"/>](readme_meta/preview_levelshots/22.webp)
+[<img src="readme_meta/preview_levelshots/23.webp" width="250"/>](readme_meta/preview_levelshots/23.webp)
+[<img src="readme_meta/preview_levelshots/24.webp" width="250"/>](readme_meta/preview_levelshots/24.webp)
+[<img src="readme_meta/preview_levelshots/25.webp" width="250"/>](readme_meta/preview_levelshots/25.webp)
+[<img src="readme_meta/preview_levelshots/26.webp" width="250"/>](readme_meta/preview_levelshots/26.webp)
+[<img src="readme_meta/preview_levelshots/27.webp" width="250"/>](readme_meta/preview_levelshots/27.webp)
 
 ## History:
 | Version: | Date:        | Status: |    
@@ -123,45 +123,8 @@ LICENSE \
 README \
 readme_meta\\...  \
 about\map-jota.txt  \
-maps\jota-builder.navMesh \
-maps\jota-human_bsuit.navMesh \
-maps\jota-human_naked.navMesh \
-maps\jota-level0.navMesh \
-maps\jota-level1.navMesh \
-maps\jota-level1upg.navMesh \
-maps\jota-level2.navMesh \
-maps\jota-level2upg.navMesh \
-maps\jota-level3.navMesh \
-maps\jota-level3upg.navMesh \
-maps\jota-level4.navMesh \
-maps\jota.bsp \
 maps\jota.map \
-maps\jota\lm_0000.webp \
-maps\jota\lm_0001.webp \
-maps\jota\lm_0002.webp \
-maps\jota\lm_0003.webp \
-maps\jota\lm_0004.webp \
-maps\jota\lm_0005.webp \
-maps\jota\lm_0006.webp \
-maps\jota\lm_0007.webp \
-maps\jota\lm_0008.webp \
-maps\jota\lm_0009.webp \
-maps\jota\lm_0010.webp \
-maps\jota\lm_0011.webp \
-maps\jota\lm_0012.webp \
-maps\jota\lm_0013.webp \
-maps\jota\lm_0014.webp \
-maps\jota\lm_0015.webp \
-maps\jota\lm_0016.webp \
-maps\jota\lm_0017.webp \
-maps\jota\lm_0018.webp \
-maps\jota\lm_0019.webp \
-maps\jota\lm_0020.webp \
-maps\jota\lm_0021.webp \
 meta\jota\jota.arena \
-meta\jota\jota.webp \
-minimaps\jota.minimap \
-minimaps\jota.webp \
 models\jota\skybox_d0ome.mtl \
 models\jota\skybox_dome.obj \
 scripts\jota_custom.particle \
