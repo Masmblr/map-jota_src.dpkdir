@@ -117,10 +117,11 @@ Excellent source of various sounds: https://freesound.org
 Below is a list of files and their legal statuses. For license information, refer to the LICENSE file or the given link.
 Some of my works that incorporate influences from other pieces are marked with an asterisk (*) at the end.
 
- <u>**Matthias “Masmblr” Peters (masmblr@gmail.com), CC BY 4.0 Deed - Attribution 4.0 International:** </u>
+ <u>**Matthias “Masmblr” Peters (masmblr@gmail.com), CC BY 4.0 Deed - Attribution 4.0 International:** </u> \
 DEPS \
 LICENSE \
 README \
+VERSION \
 readme_meta\\...  \
 about\map-jota.txt  \
 maps\jota.map \
