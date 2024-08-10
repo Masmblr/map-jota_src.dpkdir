@@ -426,4 +426,4 @@ textures\jota_custom_src\pk_wall_06_d.webp * ([Philip Klevestav](https://www.phi
 textures\jota_custom_src\pk_wall_06_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
 textures\jota_custom_src\pk_wall_06_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
 textures\jota_custom_src\pk_wall_06_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
+textures\jota_custom_src\pk_wall_06_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0)
