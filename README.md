@@ -288,107 +288,107 @@ env\jota\jota_ft.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
 env\jota\jota_lf.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
 env\jota\jota_rt.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
 env\jota\jota_up.webp * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-textures\jota_custom_src\exm_door_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_door_01_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_door_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_door_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_light_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_light_01_g.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_light_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_light_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_00_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_00_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_00_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_02_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_02_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_02_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_03_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_03_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_03_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_04_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_04_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_04_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_05_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_05_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_05_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_06_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_06_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_06_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_06_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_06_shaft_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_07_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_07_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_07_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_07_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_08_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_08_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_08_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_08_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_09_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_09_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_09_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_09_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_10_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_10_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_10_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_11_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_11_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_11_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_12_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_12_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_12_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_13_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_13_jota_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_13_jota_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_13_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_13_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_14_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_14_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_14_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_15_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_15_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_15_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_16_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_16_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_16_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_16_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_17_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_17_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_17_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_18_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_18_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_18_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_19_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_19_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_19_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_20_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_20_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_20_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_21_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_21_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_21_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_23_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_23_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_23_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_26_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_26_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_27_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_27_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_27_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_28_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_28_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_28_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_29_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_29_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_29_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_30_d.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_30_n.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_30_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_shaft_06_h.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
-textures\jota_custom_src\exm_metal_shaft_06_s.webp * ([Yves Allaire](http://www.evillair.net/), Attribution License) \
+textures\jota_custom_src\exm_door_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_door_01_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_door_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_door_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_light_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_light_01_g.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_light_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_light_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_00_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_00_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_00_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_01_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_01_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_01_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_02_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_02_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_02_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_03_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_03_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_03_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_04_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_04_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_04_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_05_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_05_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_05_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_06_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_06_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_06_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_06_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_06_shaft_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_07_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_07_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_07_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_07_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_08_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_08_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_08_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_08_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_09_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_09_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_09_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_09_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_10_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_10_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_10_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_11_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_11_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_11_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_12_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_12_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_12_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_13_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_13_jota_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_13_jota_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_13_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_13_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_14_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_14_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_14_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_15_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_15_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_15_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_16_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_16_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_16_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_16_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_17_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_17_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_17_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_18_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_18_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_18_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_19_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_19_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_19_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_20_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_20_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_20_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_21_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_21_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_21_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_23_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_23_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_23_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_26_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_26_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_27_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_27_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_27_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_28_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_28_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_28_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_29_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_29_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_29_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_30_d.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_30_n.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_30_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_shaft_06_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
+textures\jota_custom_src\exm_metal_shaft_06_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
 textures\jota_custom_src\pk_door_01_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
 textures\jota_custom_src\pk_door_01_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
 textures\jota_custom_src\pk_door_01_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
