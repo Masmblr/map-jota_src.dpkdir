@@ -1949,12 +1949,12 @@ textures/jota_custom_src/exm_metal_09
 
 textures/jota_custom_src/exm_metal_09_alpha
 {
-	qer_editorImage textures/jota_custom_src/exm_metal_09_d
+	qer_editorImage textures/jota_custom_src/exm_metal_09_d_alpha
 	qer_alphaFunc gequal 0.5
 	surfaceparm detail
 	surfaceparm alphashadow
 	{
-		diffuseMap textures/jota_custom_src/exm_metal_09_d
+		diffuseMap textures/jota_custom_src/exm_metal_09_d_alpha
 		alphafunc GE128
 		depthwrite
 		rgbGen identity
