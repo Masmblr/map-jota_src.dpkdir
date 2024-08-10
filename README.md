@@ -392,41 +392,41 @@ textures\jota_custom_src\exm_metal_30_n.webp * ([Yves Allaire](http://www.evilla
 textures\jota_custom_src\exm_metal_30_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
 textures\jota_custom_src\exm_metal_shaft_06_h.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
 textures\jota_custom_src\exm_metal_shaft_06_s.webp * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\pk_door_01_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_door_01_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_door_01_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_door_01_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_door_01_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_door_01_stream.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_01_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_01_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_01_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_01_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_02_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_02_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_02_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_02_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_g_1.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_g_2.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_03_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_g_1.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_g_2.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_04_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_05_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_05_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_05_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_05_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_05_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_d.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_g.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_h.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_n.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0) \
-textures\jota_custom_src\pk_wall_06_s.webp * ([Philip Klevestav](https://www.philipk.net), Attribution 3.0)
+textures\jota_custom_src\pk_door_01_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_door_01_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_door_01_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_door_01_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_door_01_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_door_01_stream.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_01_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_01_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_01_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_01_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_02_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_02_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_02_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_02_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_g_1.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_g_2.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_03_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_g_1.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_g_2.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_04_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_05_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_05_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_05_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_05_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_05_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_06_d.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_06_g.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_06_h.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_06_n.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
+textures\jota_custom_src\pk_wall_06_s.webp * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License)
