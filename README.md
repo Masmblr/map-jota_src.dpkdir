@@ -114,10 +114,13 @@ Quake3 advanced Map-Compiler: http://q3map2.robotrenegade.com \
 Excellent source of various sounds: https://freesound.org
 
 ## Credits - Legal Information and Attribution
-Below is a list of files and their legal statuses. For license information, refer to the LICENSE file or the given link.
-Some of my works that incorporate influences from other pieces are marked with an asterisk (*) at the end.
+Below is a list of files along with their legal statuses. For detailed license information, \
+please refer to the LICENSE file or the provided link. Works that incorporate elements \
+influenced by other pieces are indicated with an asterisk (*) at the end, followed by the original author. \
 
- <u>**Matthias “Masmblr” Peters (masmblr@gmail.com), CC BY 4.0 Deed - Attribution 4.0 International:** </u> \
+The following files are published by Matthias “Masmblr” Peters (masmblr@gmail.com) \ 
+under the CC BY 4.0 - Attribution 4.0 International license: \
+   
 DEPS \
 LICENSE \
 README \
