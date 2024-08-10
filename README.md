@@ -121,6 +121,7 @@ Some of my works that incorporate influences from other pieces are marked with a
 DEPS \
 LICENSE \
 README \
+VERSION \
 readme_meta\\...  \
 about\map-jota.txt  \
 maps\jota.map \
