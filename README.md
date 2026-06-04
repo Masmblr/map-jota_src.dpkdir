@@ -92,8 +92,6 @@ Originally developed for Tremulous, this map is now also available for Unvanquis
 
 | Version | Date | Status | Download (Ready to Play) |
 |:---|:---|:---|:---|
-
-
 | 0.1 | 2015-07-05 | Alpha | – |
 | 1.0 | 2015-08-30 | Beta | – |
 | 2.0 | 2015-09-26 | Beta | – |
