@@ -1,432 +1,277 @@
-# Jota - Game Level For Unvanquished
-![header](readme_meta/header/header.jpg) 
+<h1 align="center">Jota 2
 
-## Overview: A haunting gas harvesting platform in the clouds
-Jota is a game level by Matthias "Masmblr" Peters for the open source game [_Unvanquished_](https://Unvanquished.net/).
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Masmblr/map-jota2_src)](https://github.com/Masmblr/map-jota2_src/releases)
+[![License](https://img.shields.io/badge/license-multi--license-blue)](LICENSE)
 
-##  Description: 
-   Originally developed for Tremulous, this map is now also available for Unvanquished. The map has been completely overhauled, including more details, revamped and newly created textures, shaders, particle systems, and sounds. The lighting has been improved to create a more cohesive atmosphere. Since this is a symmetrical map, care was taken to distinguish the two sides—Humans and Aliens—by color. The Human side is bathed in a bluish light, while the Alien side is immersed in red, helping players quickly identify their location.
+![header](docs/images/3.1/header.webp)
 
-   The architecture is now more detailed, with an increased number of decals to make the environment feel more realistic. The terrain has a more organic shape, reflected in the skybox, which now features a large terrain to enhance immersion. Below the terrain, there's a large cone with a special shader applied, creating the impression that gas is emanating from beneath the Jota Station. Gas effects have been implemented in several locations using multiple particle systems, along with electric sparks and direct lights that add flickering effects to certain scenes. The large crane in the center now swings, and the massive gas balloon moves up and down.
+## Table of Contents
+- [Introduction](#introduction)
+- [Screenshots](#screenshots)
+- [Install & Run](#install--run)
+- [Changelog](#changelog)
+- [Setup Source](#setup-source)
+  - [Build](#build)
+  - [Run](#run)
+- [Tools](#tools)
+- [Related Resources](#related-resources)
+- [Acknowledgments](#acknowledgments)
+- [Credits & License](#credits--license)
 
-   At the end of each round, a haze particle system is activated, accompanied by an emergency sound signaling the round's conclusion. The water has been enhanced with a haze shader layer, making it appear more realistic. These haze effects can also be found in a section of the rock textures where water runs down the wall, and in the glass textures, where the light is now more strongly distorted when viewed through. Props like boxes and barrels have been reworked, now featuring more detail and new textures. The soundscape has been adjusted to fit the environment—fans create a wind noise, gas pipes hum, and computers make their typical sounds.
+## Introduction
+Jota 2 is a game level by Matthias "Masmblr" Peters for the open source game [_Unvanquished_](https://Unvanquished.net/).
+Originally developed for Tremulous, this map is now also available for Unvanquished.
 
-   Overall, there are many new features in this map that I'm very satisfied with. Have fun playing!
+## v3.1 Screenshots
+<p align="left">
+  <img src="docs/images/3.1/1.jpg" width="250" alt="Shot 1">
+  <img src="docs/images/3.1/2.jpg" width="250" alt="Shot 2">
+  <img src="docs/images/3.1/3.jpg" width="250" alt="Shot 3">
+  <img src="docs/images/3.1/4.jpg" width="250" alt="Shot 4">
+  <img src="docs/images/3.1/5.jpg" width="250" alt="Shot 5">
+  <img src="docs/images/3.1/6.jpg" width="250" alt="Shot 6">
+  <img src="docs/images/3.1/7.jpg" width="250" alt="Shot 7">
+  <img src="docs/images/3.1/8.jpg" width="250" alt="Shot 8">
+  <img src="docs/images/3.1/9.jpg" width="250" alt="Shot 9">
+  <img src="docs/images/3.1/10.jpg" width="250" alt="Shot 10">
+  <img src="docs/images/3.1/11.jpg" width="250" alt="Shot 11">
+  <img src="docs/images/3.1/12.jpg" width="250" alt="Shot 12">
+  <img src="docs/images/3.1/13.jpg" width="250" alt="Shot 13">
+  <img src="docs/images/3.1/14.jpg" width="250" alt="Shot 14">
+  <img src="docs/images/3.1/15.jpg" width="250" alt="Shot 15">
+  <img src="docs/images/3.1/16.jpg" width="250" alt="Shot 16">
+  <img src="docs/images/3.1/17.jpg" width="250" alt="Shot 17">
+  <img src="docs/images/3.1/18.jpg" width="250" alt="Shot 18">
+  <img src="docs/images/3.1/19.jpg" width="250" alt="Shot 19">
+  <img src="docs/images/3.1/20.jpg" width="250" alt="Shot 20">
+  <img src="docs/images/3.1/21.jpg" width="250" alt="Shot 21">
+  <img src="docs/images/3.1/22.jpg" width="250" alt="Shot 22">
+</p>
 
- * * *
+<details>
+<summary>View older screenshots:</summary>
 
-    Changelog:
-    
-    05.07.2015: v0.1
-    -Initial alpha release
-    
-    30.08.2015: v1.0
-    -Texture / Brush errors fixed
-    -Colorgrading added
-    -Reverb effect added
-    -Added navmeshes support
-    -Extended map geometry
-    -License updated
+#### v3.0 Screenshots
 
-    26.09.2015: v2.0
-    -Extended map geometry
-    -Entity cleanup
-    -Texture / Brush errors fixed
-    -Colorgrading changed
-    -Navmeshes updated
-    -New textures and sounds
-    -License updated
+<p align="left">
+  <img src="docs/images/3.0/header.jpg" width="250" alt="header">
+  <img src="docs/images/3.0/1.jpg" width="250" alt="Shot 1">
+  <img src="docs/images/3.0/2.jpg" width="250" alt="Shot 2">
+  <img src="docs/images/3.0/3.jpg" width="250" alt="Shot 3">
+  <img src="docs/images/3.0/4.jpg" width="250" alt="Shot 4">
+  <img src="docs/images/3.0/5.jpg" width="250" alt="Shot 5">
+  <img src="docs/images/3.0/6.jpg" width="250" alt="Shot 6">
+  <img src="docs/images/3.0/7.jpg" width="250" alt="Shot 7">
+  <img src="docs/images/3.0/8.jpg" width="250" alt="Shot 8">
+  <img src="docs/images/3.0/9.jpg" width="250" alt="Shot 9">
+  <img src="docs/images/3.0/10.jpg" width="250" alt="Shot 10">
+  <img src="docs/images/3.0/11.jpg" width="250" alt="Shot 11">
+  <img src="docs/images/3.0/12.jpg" width="250" alt="Shot 12">
+  <img src="docs/images/3.0/13.jpg" width="250" alt="Shot 13">
+  <img src="docs/images/3.0/14.jpg" width="250" alt="Shot 14">
+  <img src="docs/images/3.0/15.jpg" width="250" alt="Shot 15">
+  <img src="docs/images/3.0/16.jpg" width="250" alt="Shot 16">
+  <img src="docs/images/3.0/17.jpg" width="250" alt="Shot 17">
+  <img src="docs/images/3.0/18.jpg" width="250" alt="Shot 18">
+  <img src="docs/images/3.0/19.jpg" width="250" alt="Shot 19">
+  <img src="docs/images/3.0/20.jpg" width="250" alt="Shot 20">
+  <img src="docs/images/3.0/21.jpg" width="250" alt="Shot 21">
+  <img src="docs/images/3.0/22.jpg" width="250" alt="Shot 22">
+  <img src="docs/images/3.0/23.jpg" width="250" alt="Shot 23">
+  <img src="docs/images/3.0/24.jpg" width="250" alt="Shot 24">
+  <img src="docs/images/3.0/25.jpg" width="250" alt="Shot 25">
+  <img src="docs/images/3.0/26.jpg" width="250" alt="Shot 26">
+  <img src="docs/images/3.0/27.jpg" width="250" alt="Shot 27">
+</p>
 
-    08.08.2015: v3.0
-    -Overhauled textures, shaders, and particle systems
-    -Improved lighting
-    -Improved detailed architecture 
-    -Increased number of decals
-    -Organic terrain shape and expanded skybox
-    -More particle systems
-    -Enhanced shaders
-    -Swinging crane and moving gas balloon
-    -Game-Over-Scene added
-    -Reworked props with new textures
-    -Adjusted soundscape
-    -Bugfixes..
-    -License updated
+</details>
 
- * * *
+## Install & Run
 
-## Screenshots:
-[<img src="readme_meta/preview_levelshots/1.jpg" width="250"/>](readme_meta/preview_levelshots/1.jpg)
-[<img src="readme_meta/preview_levelshots/2.jpg" width="250"/>](readme_meta/preview_levelshots/2.jpg)
-[<img src="readme_meta/preview_levelshots/3.jpg" width="250"/>](readme_meta/preview_levelshots/3.jpg)
-[<img src="readme_meta/preview_levelshots/4.jpg" width="250"/>](readme_meta/preview_levelshots/4.jpg)
-[<img src="readme_meta/preview_levelshots/5.jpg" width="250"/>](readme_meta/preview_levelshots/5.jpg)
-[<img src="readme_meta/preview_levelshots/6.jpg" width="250"/>](readme_meta/preview_levelshots/6.jpg)
-[<img src="readme_meta/preview_levelshots/7.jpg" width="250"/>](readme_meta/preview_levelshots/7.jpg)
-[<img src="readme_meta/preview_levelshots/8.jpg" width="250"/>](readme_meta/preview_levelshots/8.jpg)
-[<img src="readme_meta/preview_levelshots/9.jpg" width="250"/>](readme_meta/preview_levelshots/9.jpg)
-[<img src="readme_meta/preview_levelshots/10.jpg" width="250"/>](readme_meta/preview_levelshots/10.jpg)
-[<img src="readme_meta/preview_levelshots/11.jpg" width="250"/>](readme_meta/preview_levelshots/11.jpg)
-[<img src="readme_meta/preview_levelshots/12.jpg" width="250"/>](readme_meta/preview_levelshots/12.jpg)
-[<img src="readme_meta/preview_levelshots/13.jpg" width="250"/>](readme_meta/preview_levelshots/13.jpg)
-[<img src="readme_meta/preview_levelshots/14.jpg" width="250"/>](readme_meta/preview_levelshots/14.jpg)
-[<img src="readme_meta/preview_levelshots/15.jpg" width="250"/>](readme_meta/preview_levelshots/15.jpg)
-[<img src="readme_meta/preview_levelshots/16.jpg" width="250"/>](readme_meta/preview_levelshots/16.jpg)
-[<img src="readme_meta/preview_levelshots/17.jpg" width="250"/>](readme_meta/preview_levelshots/17.jpg)
-[<img src="readme_meta/preview_levelshots/18.jpg" width="250"/>](readme_meta/preview_levelshots/18.jpg)
-[<img src="readme_meta/preview_levelshots/19.jpg" width="250"/>](readme_meta/preview_levelshots/19.jpg)
-[<img src="readme_meta/preview_levelshots/20.jpg" width="250"/>](readme_meta/preview_levelshots/20.jpg)
-[<img src="readme_meta/preview_levelshots/21.jpg" width="250"/>](readme_meta/preview_levelshots/21.jpg)
-[<img src="readme_meta/preview_levelshots/22.jpg" width="250"/>](readme_meta/preview_levelshots/22.jpg)
-[<img src="readme_meta/preview_levelshots/23.jpg" width="250"/>](readme_meta/preview_levelshots/23.jpg)
-[<img src="readme_meta/preview_levelshots/24.jpg" width="250"/>](readme_meta/preview_levelshots/24.jpg)
-[<img src="readme_meta/preview_levelshots/25.jpg" width="250"/>](readme_meta/preview_levelshots/25.jpg)
-[<img src="readme_meta/preview_levelshots/26.jpg" width="250"/>](readme_meta/preview_levelshots/26.jpg)
-[<img src="readme_meta/preview_levelshots/27.jpg" width="250"/>](readme_meta/preview_levelshots/27.jpg)
+1. Download the map and its dependencies:
 
-## History:
-| Version: | Date:        | Status: |    
-| ------- | ------------- | ------: | 
-| 0.1    | 05/07/2015  | alpha |
-| 1.0    | 30/08/2015  | beta |
-| 2.0    | 26/09/2015  | beta |
-| 3.0    | 08/08/2024  | beta |
+| Version | Date | Status | Download (Ready to Play) |
+|:---|:---|:---|:---|
 
-## Development Tools:
+
+| 0.1 | 2015-07-05 | Alpha | – |
+| 1.0 | 2015-08-30 | Beta | – |
+| 2.0 | 2015-09-26 | Beta | – |
+| 3.0 | 2015-08-08 | Beta | – |
+| **3.1** | **2026-06-01** | **latest** | [*Download Map (.dpk)*](https://github.com/Masmblr/map-jota2_src/releases/latest) |
+
+2. Place the `.dpk` file(s) into your `pkg/` directory:
+   - **Linux:** `~/.local/share/unvanquished/pkg/`
+   - **macOS:** `~/Library/Application Support/Unvanquished/pkg/`
+   - **Windows:** `%AppData%\Unvanquished\pkg\`
+
+3. Start the game and navigate to:
+   **Server Listings** -> **Start Local/LAN game** -> select **Jota 2** under **Map** -> press **Start**.
+
+## Changelog
+
+### v3.1 (Current Version)
+- Compiled with new build presets of NetRadiant Q3Map (ydnar) v2.5.17n-git-530b81e8 and NetRadiant v1.5.0 Apr 23 2026 18:38:1
+- Source refactored and map renamed to jota2 due to significant differences from Trem Jota and naming issues
+- Level-wide lighting completely redone due to engine lighting changes
+- Implemented lighting adjustments, featuring more colored lights and grid shadows
+- Removed all light entities and light_juniors
+- Selected lamps now feature grates to create more interesting shadow casting
+- Updated skybox model, adjusted cloud height, and reduced yellow tone of the sky light
+- Overhauled and cleaned up shader and texture sets
+- Sharper texturing achieved by reducing texture scale for seamless textures and replacing them with higher-resolution versions
+- Replaced custom EXM textures with stock shared_ex textures
+- Updated and simplified grate textures / Replaced grid texture
+- Extensively overhauled decals and removed several smudge decals that looked unnatural on heightmapped surfaces
+- Main center area brushwork completely reworked and updated with more details
+- Reworked fan entity
+- Replaced valve wheel asset
+- Balloon entity now rises and lowers at a faster speed
+- Changed yellow barrel color to red
+- Removed all hint brushes (Original implementation had questionable usefulness)
+- Removed player clip models at specific connection points to allow for more interesting gameplay
+
+<details>
+<summary>View older versions</summary>
+
+#### v3.0
+- Map completely overhauled including more details, revamped and newly created textures, shaders, particle systems, and sounds
+- Overhauled textures, shaders, and particle systems
+- Lighting improved to create a more cohesive atmosphere
+- Improved lighting
+- Symmetrical map sides color-coded for better orientation (Human side blue, Alien side red)
+- Architecture made more detailed and number of decals increased
+- Improved detailed architecture 
+- Increased number of decals
+- Terrain shaped more organically and skybox enhanced with a large landscape
+- Organic terrain shape and expanded skybox
+- Large cone with a special shader added beneath the terrain to simulate gas emanating from Jota Station
+- Gas effects implemented via multiple particle systems in several locations
+- More particle systems
+- Enhanced shaders
+- Electric sparks and direct lights added for flickering effects in certain scenes
+- Large crane in the center now swings
+- Massive gas balloon moves up and down
+- Swinging crane and moving gas balloon
+- Haze particle system and emergency sound activated at the end of each round
+- Game-Over-Scene added
+- Water enhanced with a haze shader layer for a more realistic look
+- Haze effects added to wet rock textures and glass textures for stronger light distortion
+- Props like boxes and barrels reworked with more details and new textures
+- Reworked props with new textures
+- Soundscape adjusted to fit the environment (wind noise from fans, humming gas pipes, typical computer sounds)
+- Adjusted soundscape
+- Bugfixes..
+- License updated
+
+#### v2.0
+- Extended map geometry
+- Entity cleanup
+- Texture / Brush errors fixed
+- Colorgrading changed
+- Navmeshes updated
+- New textures and sounds
+- License updated
+
+#### v1.0
+- Texture / Brush errors fixed
+- Colorgrading added
+- Reverb effect added
+- Added navmeshes support
+- Extended map geometry
+- License updated
+	
+#### v0.1
+- Initial alpha release
+
+</details>
+
+
+## Setup Source
+
+To build or modify this map, you need to clone the source along with its dependencies (submodules).
+
+### 1. Clone with dependencies
+```
+git clone --recurse-submodules https://github.com/Masmblr/map-jota2_src.git
+cd map-jota2_src
+```
+
+### 2. Merge Dependencies
+
+Run the provided script for your OS to merge the dependencies into the project structure:
+
+Linux / macOS:
+```bash
+chmod +x merge.sh
+./merge.sh
+```
+
+Windows (PowerShell):
+```PowerShell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\merge.ps1
+```
+
+<details>
+<summary>Dependencies:</summary>
+  
+[tex-common](https://github.com/UnvanquishedAssets/tex-common_src.dpkdir)  
+[tex-ex](https://github.com/UnvanquishedAssets/tex-ex_src.dpkdir)  
+[tex-space](https://github.com/UnvanquishedAssets/tex-space_src.dpkdir)  
+
+</details>
+
+> [!TIP]
+> Note: You can also manually copy the contents of the dependencies/ subfolders 
+> into src/map-jota2_src/ or symlink them if you prefer to manage dependencies yourself.
+
+### 3. Install & Testing
+
+To load the map in **NetRadiant** and test it in-game, copy or link the contents of the `src/` folder into your Unvanquished pkg directory:
+
+- **Linux:** `~/.local/share/unvanquished/pkg/`
+- **macOS:** `~/Library/Application Support/Unvanquished/pkg/`
+- **Windows:** `%AppData%\Unvanquished\pkg\`
+
+It should look like this: `.../unvanquished/pkg/map-jota2_src/`
+
+### Build
+
+If you want to compile the map yourself:
+
+1. Install NetRadiant (v1.5.0 or higher) and choose the **Unvanquished** game profile.  
+2. Open the **.map** file from `...unvanquished/pkg/map-jota2_src/maps/`.    
+3. Build the map by navigating to **Build** -> **Build everything for release**.
+
+### Run
+Start the map via terminal or shortcut (add `.exe` on Windows):
+
+```bash
+daemon +developer 1 +devmap jota2
+```
+
+
+
+## Tools:
 [GIMP](https://www.gimp.org/) \
 [Photoshop](https://www.adobe.com/de/products/photoshop.html) \
 [Audacity](https://www.audacityteam.org/) \
-[NetRadiant](https://netradiant.gitlab.io/) (v1.5.0-20220628) \
+[NetRadiant](https://netradiant.gitlab.io/) \
+[Blender](https://www.blender.org) \
 [Q3Map2](http://q3map2.robotrenegade.com/) \
 [Notepad++](https://notepad-plus-plus.org/) \
-[Visual Studio Code](https://code.visualstudio.com/)
+[Crunch](https://github.com/BinomialLLC/crunch)
 
-## Thanks to:
-* id Software for Quake3
-* Team Xonotic for NetRadiant 
-* Unvanquished Development for Unvanquished
+## Related Resources
+[Unvanquished](https://unvanquished.net)  
+[NetRadiant](https://netradiant.gitlab.io )   
 
-## Related Resources:
-Unvanquished website: https://unvanquished.net \
-NetRadiant Level-Editor: https://netradiant.gitlab.io \
-Unvanquished-Mapping Wiki: https://wiki.unvanquished.net/wiki/Mapping \
-Quake3 Shader Manual: http://toolz.nexuizninjaz.com/shader/ \
-Quake3 advanced Map-Compiler: http://q3map2.robotrenegade.com \
-Excellent source of various sounds: https://freesound.org
+## Credits & License
+A comprehensive list of all files and their respective licenses can be found in the following document:
+[→ LICENSE](LICENSE)
 
-## Credits - Legal Information and Attribution
-Below is a list of files along with their legal statuses. For detailed license information,
-please refer to the LICENSE file or the provided link. Works that incorporate elements
-influenced by other pieces are indicated with an asterisk (*) at the end, followed by the original author.
-
-The following files are published by Matthias “Masmblr” Peters (masmblr@gmail.com)
-under the CC BY 4.0 - Attribution 4.0 International license:
-   
-DEPS \
-LICENSE \
-README \
-VERSION \
-readme_meta\\...  \
-about\map-jota.txt  \
-maps\jota.map \
-meta\jota\jota.arena \
-models\jota\skybox_d0ome.mtl \
-models\jota\skybox_dome.obj \
-scripts\jota_custom.particle \
-scripts\jota_custom.shader \
-scripts\jota_custom.trail \
-scripts\shaderlist.txt \
-sounds\jota\computer_sounds.opus * (https://freesound.org/people/newlocknew, Attribution 4.0) \
-sounds\jota\computer_work.opus * (https://freesound.org/people/suonidigenova, Creative Commons 0) \
-sounds\jota\electric_01.opus * (https://freesound.org/people/chimerical, Attribution 4.0) \
-sounds\jota\electric_02.opus * (https://freesound.org/people/chimerical, Attribution 4.0) \
-sounds\jota\fan_slow.opus * (https://freesound.org/people/newlocknew, Attribution 4.0) \
-sounds\jota\game_over.opus * (https://freesound.org/people/Leadershinji, Attribution 4.0; https://freesound.org/people/onderwish, Creative Commons 0;
-https://freesound.org/people/HaraldDeLuca, Attribution NonCommercial 4.0; https://freesound.org/people/xdrav, Creative Commons 0; https://freesound.org/people/Anomaex, Creative Commons 0;)
-sounds\jota\levelwide_rumble.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\lift.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\machine_sound_high.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\machine_sound_low.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\moving_gears.opus * (https://freesound.org/people/Erdie, Attribution 4.0) \
-sounds\jota\pipe_steam.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\window_rumble.opus * (https://freesound.org/people/newlocknew), Attribution 4.0) \
-sounds\jota\wind_loop.opus * (https://freesound.org/people/warwickallison, Attribution 3.0) \
-textures\jota_custom_src\decal_19_d.jpg * (https://www.unvanquished.net), GNU GPLv3, CC BY-SA 2.5) \
-gfx\jota\colorgrading.jpg * (https://www.unvanquished.net), GNU GPLv3, CC BY-SA 2.5) \
-textures\jota_custom_src\balloon_fabric_01_d.jpg \
-textures\jota_custom_src\balloon_fabric_01_n.jpg \
-textures\jota_custom_src\balloon_fabric_01_s.jpg \
-textures\jota_custom_src\balloon_fabric_02_d.jpg \
-textures\jota_custom_src\balloon_fabric_02_envmap.jpg \
-textures\jota_custom_src\barrel_01_d.jpg \
-textures\jota_custom_src\barrel_01_h.jpg \
-textures\jota_custom_src\barrel_01_n.jpg \
-textures\jota_custom_src\barrel_01_s.jpg \
-textures\jota_custom_src\barrel_red_01_d.jpg \
-textures\jota_custom_src\barrel_red_top_01_d.jpg \
-textures\jota_custom_src\barrel_top_01_d.jpg \
-textures\jota_custom_src\barrel_top_01_h.jpg \
-textures\jota_custom_src\barrel_top_01_n.jpg \
-textures\jota_custom_src\barrel_top_01_s.jpg \
-textures\jota_custom_src\barrel_top_white_01_d.jpg \
-textures\jota_custom_src\barrel_warn_01_d.jpg \
-textures\jota_custom_src\barrel_yellow_01_d.jpg \
-textures\jota_custom_src\barrel_yellow_top_01_d.jpg \
-textures\jota_custom_src\box_01_d.jpg \
-textures\jota_custom_src\box_01_n.jpg \
-textures\jota_custom_src\box_01_s.jpg \
-textures\jota_custom_src\box_02_d.jpg \
-textures\jota_custom_src\box_02_n.jpg \
-textures\jota_custom_src\box_02_s.jpg \
-textures\jota_custom_src\box_03_d.jpg \
-textures\jota_custom_src\box_03_n.jpg \
-textures\jota_custom_src\box_03_s.jpg \
-textures\jota_custom_src\cables_01_d.jpg \
-textures\jota_custom_src\cables_01_n.jpg \
-textures\jota_custom_src\cables_01_s.jpg \
-textures\jota_custom_src\decal_01_d.jpg \
-textures\jota_custom_src\decal_02_d.jpg \
-textures\jota_custom_src\decal_03_d.jpg \
-textures\jota_custom_src\decal_04_d.jpg \
-textures\jota_custom_src\decal_05_d.jpg \
-textures\jota_custom_src\decal_06_d.jpg \
-textures\jota_custom_src\decal_07_d.jpg \
-textures\jota_custom_src\decal_08_d.jpg \
-textures\jota_custom_src\decal_09_d.jpg \
-textures\jota_custom_src\decal_10_d.jpg \
-textures\jota_custom_src\decal_11_d.jpg \
-textures\jota_custom_src\decal_12_d.jpg \
-textures\jota_custom_src\decal_13_d.jpg \
-textures\jota_custom_src\decal_14_d.jpg \
-textures\jota_custom_src\decal_15_d.jpg \
-textures\jota_custom_src\decal_16_d.jpg \
-textures\jota_custom_src\decal_17_d.jpg \
-textures\jota_custom_src\decal_18_d.jpg \
-textures\jota_custom_src\glas_01_d.jpg \
-textures\jota_custom_src\glas_02_hhm.jpg \
-textures\jota_custom_src\light_01_d.jpg \
-textures\jota_custom_src\light_01_g.jpg \
-textures\jota_custom_src\light_01_n.jpg \
-textures\jota_custom_src\light_01_s.jpg \
-textures\jota_custom_src\light_02_blue_d.jpg \
-textures\jota_custom_src\light_02_blue_g.jpg \
-textures\jota_custom_src\light_02_d.jpg \
-textures\jota_custom_src\light_02_g.jpg \
-textures\jota_custom_src\light_02_n.jpg \
-textures\jota_custom_src\light_02_red_d.jpg \
-textures\jota_custom_src\light_02_red_g.jpg \
-textures\jota_custom_src\light_02_s.jpg \
-textures\jota_custom_src\light_03_blue_d.jpg \
-textures\jota_custom_src\light_03_blue_g.jpg \
-textures\jota_custom_src\light_03_h.jpg \
-textures\jota_custom_src\light_03_n.jpg \
-textures\jota_custom_src\light_03_red_d.jpg \
-textures\jota_custom_src\light_03_red_g.jpg \
-textures\jota_custom_src\light_03_s.jpg \
-textures\jota_custom_src\light_05_d.jpg \
-textures\jota_custom_src\light_05_g.jpg \
-textures\jota_custom_src\light_05_n.jpg \
-textures\jota_custom_src\light_05_s.jpg \
-textures\jota_custom_src\light_05_stream_g.jpg \
-textures\jota_custom_src\metal_01_d.jpg \
-textures\jota_custom_src\metal_01_glow_0_d.jpg \
-textures\jota_custom_src\metal_01_glow_0_g.jpg \
-textures\jota_custom_src\metal_01_glow_1_d.jpg \
-textures\jota_custom_src\metal_01_glow_1_g.jpg \
-textures\jota_custom_src\metal_01_glow_2_d.jpg \
-textures\jota_custom_src\metal_01_glow_2_g.jpg \
-textures\jota_custom_src\metal_01_glow_n.jpg \
-textures\jota_custom_src\metal_01_glow_s.jpg \
-textures\jota_custom_src\metal_01_n.jpg \
-textures\jota_custom_src\metal_01_s.jpg \
-textures\jota_custom_src\metal_02_d.jpg \
-textures\jota_custom_src\metal_02_n.jpg \
-textures\jota_custom_src\metal_02_s.jpg \
-textures\jota_custom_src\metal_03_d.jpg \
-textures\jota_custom_src\metal_03_n.jpg \
-textures\jota_custom_src\metal_03_s.jpg \
-textures\jota_custom_src\rocks_01_d.jpg \
-textures\jota_custom_src\rocks_01_hhm.jpg \
-textures\jota_custom_src\rocks_01_n.jpg \
-textures\jota_custom_src\rocks_01_s.jpg \
-textures\jota_custom_src\rotor_blades_01_d.jpg \
-textures\jota_custom_src\rotor_blades_01_n.jpg \
-textures\jota_custom_src\rotor_blades_01_s.jpg \
-textures\jota_custom_src\screen_01_d.jpg \
-textures\jota_custom_src\screen_01_g.jpg \
-textures\jota_custom_src\screen_01_scanlines.jpg \
-textures\jota_custom_src\screen_02_d.jpg \
-textures\jota_custom_src\sfx_airstream_d.jpg \
-textures\jota_custom_src\sfx_airstream_hhm.jpg \
-textures\jota_custom_src\sfx_distortion_hhm.jpg \
-textures\jota_custom_src\sfx_envmap.jpg \
-textures\jota_custom_src\sfx_envmap_2.jpg \
-textures\jota_custom_src\sfx_envmap_3.jpg \
-textures\jota_custom_src\sfx_gradient_blue_01_d.jpg \
-textures\jota_custom_src\sfx_gradient_red_01_d.jpg \
-textures\jota_custom_src\sfx_gradient_white_01_d.jpg \
-textures\jota_custom_src\sfx_skybox_atmopshere.jpg \
-textures\jota_custom_src\sfx_sprite_01_d.jpg \
-textures\jota_custom_src\sfx_sprite_02_d.jpg \
-textures\jota_custom_src\sfx_sprite_03_d.jpg \
-textures\jota_custom_src\sfx_sprite_04_d.jpg \
-textures\jota_custom_src\sfx_sprite_blue_01_d.jpg \
-textures\jota_custom_src\sfx_sprite_red_01_d.jpg \
-textures\jota_custom_src\sfx_trail_01_d.jpg \
-textures\jota_custom_src\sfx_trail_02_d.jpg \
-textures\jota_custom_src\sfx_trail_03_d.jpg \
-textures\jota_custom_src\turn_wheel_01_d.jpg \
-textures\jota_custom_src\turn_wheel_01_n.jpg \
-textures\jota_custom_src\turn_wheel_01_s.jpg \
-textures\jota_custom_src\water_01_d.jpg \
-textures\jota_custom_src\water_01_hhm.jpg \
-textures\jota_custom_src\qer_related\
-textures\jota_custom_src\qer_related\hide_fog.jpg \
-textures\jota_custom_src\qer_related\qer_light_05_d.jpg \
-textures\jota_custom_src\qer_related\rocks_01_d_dir.jpg \
-textures\jota_custom_src\qer_related\sfx_skybox_dir.jpg \
-textures\jota_custom_src\qer_related\water_01_d_dir.jpg \
-env\jota\jota_bk.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-env\jota\jota_dn.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-env\jota\jota_ft.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-env\jota\jota_lf.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-env\jota\jota_rt.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-env\jota\jota_up.jpg * (Jockum Skoglund (hipshot), CC-BY 3.0) \
-textures\jota_custom_src\exm_door_01_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_door_01_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_door_01_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_door_01_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_light_01_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_light_01_g.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_light_01_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_light_01_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_00_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_00_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_00_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_01_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_01_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_01_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_02_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_02_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_02_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_03_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_03_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_03_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_04_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_04_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_04_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_05_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_05_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_05_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_06_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_06_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_06_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_06_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_06_shaft_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_07_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_07_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_07_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_07_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_08_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_08_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_08_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_08_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_09_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_09_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_09_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_09_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_10_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_10_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_10_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_11_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_11_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_11_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_12_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_12_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_12_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_13_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_13_jota_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_13_jota_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_13_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_13_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_14_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_14_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_14_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_15_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_15_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_15_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_16_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_16_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_16_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_16_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_17_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_17_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_17_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_18_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_18_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_18_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_19_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_19_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_19_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_20_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_20_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_20_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_21_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_21_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_21_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_23_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_23_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_23_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_26_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_26_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_27_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_27_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_27_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_28_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_28_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_28_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_29_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_29_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_29_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_30_d.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_30_n.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_30_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_shaft_06_h.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\exm_metal_shaft_06_s.jpg * ([Yves Allaire](http://www.evillair.net/), Creative Commons Attribution-ShareAlike 4.0 International) \
-textures\jota_custom_src\pk_door_01_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_door_01_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_door_01_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_door_01_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_door_01_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_door_01_stream.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_01_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_01_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_01_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_01_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_02_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_02_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_02_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_02_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_g_1.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_g_2.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_03_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_g_1.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_g_2.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_04_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_05_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_05_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_05_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_05_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_05_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_06_d.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_06_g.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_06_h.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_06_n.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License) \
-textures\jota_custom_src\pk_wall_06_s.jpg * ([Philip Klevestav](https://www.philipk.net), Creative Commons Attribution 3.0 Unported License)
+## Acknowledgments
+- id Software for Quake3
+- Unvanquished Development for Unvanquished
+- Team Xonotic for NetRadiant
