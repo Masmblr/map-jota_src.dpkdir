@@ -3,7 +3,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Masmblr/map-jota2_src)](https://github.com/Masmblr/map-jota2_src/releases)
 [![License](https://img.shields.io/badge/license-multi--license-blue)](LICENSE)
 
-![header](docs/images/3.1/header.webp)
+![header](docs/images/3.1/header.jpg)
 
 ## Table of Contents
 - [Introduction](#introduction)
