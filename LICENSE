@@ -1,4 +1,4 @@
-CTCS Legal Information File
+Jota 2 Legal Information File
 https://github.com/Masmblr
 ===================================
 
@@ -6,103 +6,259 @@ MATERIAL
 ========
 
 This is a complete list of all files included in this project, along with their respective authors and license information.
-Derivative files are marked with (modified by …) and retain the original license unless otherwise noted.
+Derivative files are marked with (modified) and retain the original license unless otherwise noted.
 
 
 Material by Matthias Peters (Masmblr) © 2026
 License: Creative Commons BY-NC-SA 4.0 (see docs/licenses/CC-NC-SA_4.0.txt)
 ----
-.gitattributes
-.gitignore
-.gitmodules
+DEPS
 LICENSE
-docs/images/1.1/1.webp
-docs/images/1.1/10.webp
-docs/images/1.1/2.webp
-docs/images/1.1/3.webp
-docs/images/1.1/4.webp
-docs/images/1.1/5.webp
-docs/images/1.1/6.webp
-docs/images/1.1/7.webp
-docs/images/1.1/8.webp
-docs/images/1.1/9.webp
-docs/images/1.2/1.jpg
-docs/images/1.2/2.jpg
-docs/images/1.2/3.jpg
-docs/images/1.2/4.jpg
-docs/images/1.2/5.jpg
-docs/images/1.2/6.jpg
-docs/images/1.2/7.jpg
-docs/images/1.2/8.jpg
-docs/images/1.2/9.jpg
-docs/images/1.2/header.webp
-src/map-ctcs_src.dpkdir/DEPS
-src/map-ctcs_src.dpkdir/VERSION
-src/map-ctcs_src.dpkdir/about/ctcs.txt
-src/map-ctcs_src.dpkdir/maps/ctcs.map
-src/map-ctcs_src.dpkdir/meta/ctcs/ctcs.arena
-src/map-ctcs_src.dpkdir/meta/ctcs/ctcs.webp
-src/map-ctcs_src.dpkdir/scripts/ctcs_custom.shader
-src/map-ctcs_src.dpkdir/scripts/shaderlist.txt
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/billboard_backlight.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/billboard_lines.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03b.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03r.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_blend.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_blend_blue.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_blend_red.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_h.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_n.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_03_s.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_fan_d.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_fan_n.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/ctcs_fan_s.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/floor_grate3_n.webp
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/floor_grate3_s.webp
-
-
-Material by Matthias Peters (Masmblr) & Yves 'evillair' Allaire
-License: Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/)
-Note: Based on texture-material of eX Textures. (https://www.evillair.net/v4/gametextures/)
-----
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/floor_grate3_alpha.tga
+README.md
+VERSION
+about\jota2.txt
+maps\jota2.map
+meta\jota2\jota2.arena
+meta\jota2\jota2.webp
+models\jota2\skybox_dome.mtl
+models\jota2\skybox_dome.obj
+scripts\jota2_custom.particle
+scripts\jota2_custom.shader
+scripts\jota2_custom.trail
+scripts\shaderlist.txt
+textures\jota2_custom_src\air_flow.webp
+textures\jota2_custom_src\air_flow_distortion_hhm.webp
+textures\jota2_custom_src\cloud_stream.webp
+textures\jota2_custom_src\decal_blood_kill.webp
+textures\jota2_custom_src\decal_blood_pool.webp
+textures\jota2_custom_src\decal_blood_smear.webp
+textures\jota2_custom_src\decal_blood_spots.webp
+textures\jota2_custom_src\decal_danger_sign.webp
+textures\jota2_custom_src\decal_down.webp
+textures\jota2_custom_src\decal_info.webp
+textures\jota2_custom_src\decal_jota.webp
+textures\jota2_custom_src\decal_left.webp
+textures\jota2_custom_src\decal_tag.webp
+textures\jota2_custom_src\display_backlight.webp
+textures\jota2_custom_src\env01.webp
+textures\jota2_custom_src\env02.webp
+textures\jota2_custom_src\env03.webp
+textures\jota2_custom_src\floor_grate1_d_alpha.webp
+textures\jota2_custom_src\glas.webp
+textures\jota2_custom_src\glas_hhm.webp
+textures\jota2_custom_src\gradient_blue.webp
+textures\jota2_custom_src\gradient_red.webp
+textures\jota2_custom_src\gradient_white.webp
+textures\jota2_custom_src\light_flare_blue.webp
+textures\jota2_custom_src\light_flare_red.webp
+textures\jota2_custom_src\light_flare_white.webp
+textures\jota2_custom_src\light_point_d.webp
+textures\jota2_custom_src\light_point_g1.webp
+textures\jota2_custom_src\light_point_g2.webp
+textures\jota2_custom_src\light_point_g3.webp
+textures\jota2_custom_src\light_point_n.webp
+textures\jota2_custom_src\light_point_s.webp
+textures\jota2_custom_src\metal_border_d.webp
+textures\jota2_custom_src\metal_border_n.webp
+textures\jota2_custom_src\metal_border_s.webp
+textures\jota2_custom_src\metal_corner_d.webp
+textures\jota2_custom_src\metal_corner_n.webp
+textures\jota2_custom_src\metal_corner_s.webp
+textures\jota2_custom_src\metal_plain_d.webp
+textures\jota2_custom_src\metal_plain_d2.webp
+textures\jota2_custom_src\metal_plain_n.webp
+textures\jota2_custom_src\metal_plain_s.webp
+textures\jota2_custom_src\metal_strut_d.webp
+textures\jota2_custom_src\metal_strut_d2.webp
+textures\jota2_custom_src\metal_strut_d3.webp
+textures\jota2_custom_src\metal_strut_g.webp
+textures\jota2_custom_src\metal_strut_g1.webp
+textures\jota2_custom_src\metal_strut_g2.webp
+textures\jota2_custom_src\metal_strut_n.webp
+textures\jota2_custom_src\metal_strut_s.webp
+textures\jota2_custom_src\prop_balloon_fabric_n.webp
+textures\jota2_custom_src\prop_balloon_fabric_s.webp
+textures\jota2_custom_src\prop_balloon_inner_fabric_d.webp
+textures\jota2_custom_src\prop_balloon_outer_fabric_d.webp
+textures\jota2_custom_src\prop_barrel_top_blue_d.webp
+textures\jota2_custom_src\prop_barrel_top_neutral_d.webp
+textures\jota2_custom_src\prop_barrel_top_neutral_h.webp
+textures\jota2_custom_src\prop_barrel_top_neutral_n.webp
+textures\jota2_custom_src\prop_barrel_top_neutral_s.webp
+textures\jota2_custom_src\prop_barrel_top_red_d.webp
+textures\jota2_custom_src\prop_barrel_wall_blue_d.webp
+textures\jota2_custom_src\prop_barrel_wall_neutral_d.webp
+textures\jota2_custom_src\prop_barrel_wall_neutral_n.webp
+textures\jota2_custom_src\prop_barrel_wall_neutral_s.webp
+textures\jota2_custom_src\prop_barrel_wall_red_d.webp
+textures\jota2_custom_src\prop_barrel_wall_special_d.webp
+textures\jota2_custom_src\prop_box_big_d.webp
+textures\jota2_custom_src\prop_box_big_n.webp
+textures\jota2_custom_src\prop_box_big_s.webp
+textures\jota2_custom_src\prop_box_small_d.webp
+textures\jota2_custom_src\prop_box_small_n.webp
+textures\jota2_custom_src\prop_box_small_s.webp
+textures\jota2_custom_src\prop_box_tech_d.webp
+textures\jota2_custom_src\prop_box_tech_n.webp
+textures\jota2_custom_src\prop_box_tech_s.webp
+textures\jota2_custom_src\prop_cables_d.webp
+textures\jota2_custom_src\prop_cables_n.webp
+textures\jota2_custom_src\prop_cables_s.webp
+textures\jota2_custom_src\prop_display_a.webp
+textures\jota2_custom_src\prop_display_b.webp
+textures\jota2_custom_src\prop_display_backlight.webp
+textures\jota2_custom_src\prop_display_scanlines.webp
+textures\jota2_custom_src\prop_fan_d.webp
+textures\jota2_custom_src\prop_fan_n.webp
+textures\jota2_custom_src\prop_fan_s.webp
+textures\jota2_custom_src\prop_wheel_d.webp
+textures\jota2_custom_src\prop_wheel_n.webp
+textures\jota2_custom_src\prop_wheel_s.webp
+textures\jota2_custom_src\trail_blue_wave.webp
+textures\jota2_custom_src\trail_straight.webp
+textures\jota2_custom_src\trail_yellow_wave.webp
+textures\jota2_custom_src\water.webp
+textures\jota2_custom_src\water_hhm.webp
 
 
 Material by Matthias Peters (Masmblr) & Unvanquished Development
 License: Creative Commons BY-SA 2.5 (Inherited due to Share Alike, see docs/licenses/CC-BY-SA-2.5.txt)
 Note: Contains the Unvanquished logo.
 ----
-src/map-ctcs_src.dpkdir/textures/ctcs_custom_src/billboard.webp
+textures\jota2_custom_src\decal_unv_sticker.webp (modified)
 
 
 Material by Unvanquished Development
 License: Creative Commons BY-SA 2.5 (see docs/licenses/CC-BY-SA_2.5.txt)
 ----
-src/map-ctcs_src.dpkdir/gfx/ctcs/colorgrading.webp (modified by Masmblr)
+src/map-jota2_src.dpkdir/gfx/ctcs/colorgrading.webp
 
 
 Material by newlocknew
 License: Attribution 4.0 (see docs/licenses/Attribution-4.0-International.txt)
 ----
-src/map-ctcs_src.dpkdir/sounds/ctcs/fan_big.opus (modified by Masmblr)
-src/map-ctcs_src.dpkdir/sounds/ctcs/electric_sparks.opus (modified by Masmblr)
-src/map-ctcs_src.dpkdir/sounds/ctcs/computer_sounds.opus (modified by Masmblr)
-src/map-ctcs_src.dpkdir/sounds/ctcs/machine_sound_low.opus (modified by Masmblr)
-src/map-ctcs_src.dpkdir/sounds/ctcs/machine_steam.opus (modified by Masmblr)
-src/map-ctcs_src.dpkdir/sounds/ctcs/pipe_steam.opus (modified by Masmblr)
+sounds\jota2\computer_sounds.opus (modified)
+sounds\jota2\fan_slow.opus (modified)
+sounds\jota2\lift.opus (modified)
+sounds\jota2\levelwide_rumble.opus (modified)
+sounds\jota2\machine_sound_high.opus (modified)
+sounds\jota2\window_rumble.opus (modified)
+sounds\jota2\pipe_steam.opus (modified)
 
 
-Material by KorgMS2000B
-License: Creative Commons 0 (see docs/licenses/CreativeCommons_CC0_1.0.txt)
-----
-src/map-ctcs_src.dpkdir/sounds/ctcs/machine_steam.opus (modified by Masmblr)
-
-
-Material by Calinou
+Material by suonidigenova (https://freesound.org/people/suonidigenova)
 License: Creative Commons 0 (see docs/licenses/CC0-1.0.txt)
 ----
-src/map-ctcs_src.dpkdir/models/ctcs/barrel01/model.obj
-src/map-ctcs_src.dpkdir/models/ctcs/barrel01/normal.webp (modified by Masmblr)
-src/map-ctcs_src.dpkdir/models/ctcs/barrel01/height.webp (modified by Masmblr)
-src/map-ctcs_src.dpkdir/models/ctcs/barrel01/specular.webp (modified by Masmblr)
+sounds\jota2\computer_work.opus (modified)
+
+
+Material by chimerical (https://freesound.org/people/chimerical)
+License: Attribution 4.0 (see docs/licenses/Attribution-4.0-International.txt)
+----
+sounds\jota2\electric_01.opus (modified)
+sounds\jota2\electric_02.opus (modified)
+
+
+Material by Masmblr &
+Leadershinji (https://freesound.org/people/Leadershinji)
+License: Attribution 4.0 (see docs/licenses/Attribution-4.0-International.txt)
+onderwish (https://freesound.org/people/onderwish) , Creative Commons 0;
+License: Attribution 4.0 (see docs/licenses/Attribution-4.0-International.txt)
+HaraldDeLuca (https://freesound.org/people/HaraldDeLuca)
+License: Attribution NonCommercial 4.0 (see docs/licenses/CC-NC-SA_4.0.txt)
+xdrav (https://freesound.org/people/xdrav)
+License: Creative Commons 0 (see docs/licenses/CC0-1.0.txt)
+Anomaex (https://freesound.org/people/Anomaex)
+License: Creative Commons 0 (see docs/licenses/CC0-1.0.txt)
+Note: Sampling / Mixup creation.
+----
+sounds\jota2\game_over.opus (modified)
+
+
+Material by Erdie (https://freesound.org/people/Erdie)
+License: Attribution 4.0 (see docs/licenses/Attribution-4.0-International.txt)
+----
+sounds\jota2\moving_gears.opus (modified)
+
+
+Material by Erdie (https://freesound.org/people/Erdie)
+License: Attribution 3.0 (see docs/licenses/Attribution-3.0.txt)
+----
+sounds\jota2\moving_gears.opus (modified)
+
+
+Material by warwickallison (https://freesound.org/people/warwickallison)
+License: Attribution 3.0 (see docs/licenses/Attribution-3.0.txt)
+----
+sounds\jota2\wind_loop.opus (modified)
+
+
+Material by Jockum Skoglund (hipshot)
+License: Creative Commons CC-BY 3.0 (see docs/licenses/CC-BY_3.0.txt)
+----
+env\jota2\jota2_bk.webp (modified)
+env\jota2\jota2_dn.webp (modified)
+env\jota2\jota2_ft.webp (modified)
+env\jota2\jota2_lf.webp (modified)
+env\jota2\jota2_rt.webp (modified)
+env\jota2\jota2_up.webp (modified)
+
+
+Material by Matthias Peters (Masmblr) & Yves Allaire (http://www.evillair.net/)
+License: Creative Commons Attribution-ShareAlike 4.0 International (Inherited, see docs/licenses/CC-BY-SA-2.5.txt)
+Note: Contains textures from EXM-Set.
+----
+textures\jota2_custom_src\chain_link_fence_d.webp (modified)
+textures\jota2_custom_src\chain_link_fence_n.webp (modified)
+textures\jota2_custom_src\chain_link_fence_s.webp (modified)
+textures\jota2_custom_src\metal_beam_d.webp (modified)
+textures\jota2_custom_src\metal_beam_n.webp (modified)
+textures\jota2_custom_src\metal_beam_s.webp (modified)
+textures\jota2_custom_src\metal_grid_d.webp (modified)
+textures\jota2_custom_src\metal_grid_n.webp (modified)
+textures\jota2_custom_src\metal_grid_s.webp (modified)
+textures\jota2_custom_src\metal_wall_illu_d.webp (modified)
+textures\jota2_custom_src\metal_wall_illu_g1.webp (modified)
+textures\jota2_custom_src\metal_wall_illu_g2.webp (modified)
+textures\jota2_custom_src\metal_wall_illu_n.webp (modified)
+textures\jota2_custom_src\metal_wall_illu_s.webp (modified)
+
+
+Material by Matthias Peters (Masmblr) & Philip Klevestav (https://www.philipk.net), 
+License: Creative Commons Attribution 3.0 Unported License)
+Note: Contains textures from PK-Set.
+----
+textures\jota2_custom_src\rocks_d.webp (modified)
+textures\jota2_custom_src\rocks_hhm.webp (modified)
+textures\jota2_custom_src\rocks_n.webp (modified)
+textures\jota2_custom_src\rocks_s.webp (modified)
+textures\jota2_custom_src\wall_tech_computer1_d.webp (modified)
+textures\jota2_custom_src\wall_tech_computer1_g.webp (modified)
+textures\jota2_custom_src\wall_tech_computer1_h.webp (modified)
+textures\jota2_custom_src\wall_tech_computer1_n.webp (modified)
+textures\jota2_custom_src\wall_tech_computer1_s.webp (modified)
+textures\jota2_custom_src\wall_tech_computer2_d.webp (modified)
+textures\jota2_custom_src\wall_tech_computer2_g.webp (modified)
+textures\jota2_custom_src\wall_tech_computer2_h.webp (modified)
+textures\jota2_custom_src\wall_tech_computer2_n.webp (modified)
+textures\jota2_custom_src\wall_tech_computer2_s.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_d.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_g1.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_g2.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_h.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_n.webp (modified)
+textures\jota2_custom_src\wall_tech_computer3_s.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_d.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_g1.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_g2.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_h.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_n.webp (modified)
+textures\jota2_custom_src\wall_tech_computer4_s.webp (modified)
+textures\jota2_custom_src\wall_tech_spotlights_d.webp (modified)
+textures\jota2_custom_src\wall_tech_spotlights_g.webp (modified)
+textures\jota2_custom_src\wall_tech_spotlights_n.webp (modified)
+textures\jota2_custom_src\wall_tech_spotlights_s.webp (modified)
+textures\jota2_custom_src\metal_tech_plate_d.webp (modified)
+textures\jota2_custom_src\metal_tech_plate_h.webp (modified)
+textures\jota2_custom_src\metal_tech_plate_n.webp (modified)
+textures\jota2_custom_src\metal_tech_plate_s.webp (modified)
