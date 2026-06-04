@@ -45,7 +45,6 @@ Originally developed for Tremulous, this map is now also available for Unvanquis
   <img src="docs/images/3.1/19.jpg" width="250" alt="Shot 19">
   <img src="docs/images/3.1/20.jpg" width="250" alt="Shot 20">
   <img src="docs/images/3.1/21.jpg" width="250" alt="Shot 21">
-  <img src="docs/images/3.1/22.jpg" width="250" alt="Shot 22">
 </p>
 
 <details>
