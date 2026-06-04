@@ -1,0 +1,6 @@
+[submodule "src/map-jota2_src.dpkdir/dependencies/tex-common_src.dpkdir"]
+	path = src/map-jota2_src.dpkdir/dependencies/tex-common_src.dpkdir
+	url = https://github.com/UnvanquishedAssets/tex-common_src.dpkdir.git
+[submodule "src/map-jota2_src.dpkdir/dependencies/tex-ex_src.dpkdir"]
+	path = src/map-jota2_src.dpkdir/dependencies/tex-ex_src.dpkdir
+	url = https://github.com/UnvanquishedAssets/tex-ex_src.dpkdir.git
